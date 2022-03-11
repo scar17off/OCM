@@ -1,4 +1,3 @@
-var OJS = [];
 const error = m => console.error("%c " + m, "color: #ff0000");
 /*
     Events:
@@ -686,7 +685,7 @@ class Bucket {
     };
 };
 console.log("OJS loaded");
-return OJS = {
+OJS = {
     Client: Client,
     ChunkSystem: ChunkSystem,
     Chunks: Chunks,
